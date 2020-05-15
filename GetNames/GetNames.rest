@@ -1,2 +1,2 @@
-GET http://localhost:7071/api/GetNames
+GET http://localhost:7071/api/names
 Content-Type: application/json

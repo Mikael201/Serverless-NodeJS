@@ -1,0 +1,7 @@
+POST http://localhost:7071/api/names
+Content-Type: application/json
+
+{
+    "name": "Mikael Heininen",
+    "score": "99"
+}
