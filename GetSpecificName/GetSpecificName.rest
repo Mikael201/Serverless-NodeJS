@@ -1,2 +1,2 @@
-GET http://localhost:7071/api/names/5ebf047eb373734aacc62967
+GET http://localhost:7071/api/names/Martta
 Content-Type: application/json

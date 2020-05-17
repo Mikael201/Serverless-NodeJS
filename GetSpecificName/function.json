@@ -5,7 +5,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route": "names/:id",
+      "route": "names/:name",
       "methods": [
         "get"
       ]
