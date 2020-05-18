@@ -7,9 +7,10 @@ module.exports = async (context) => {
     console.log("Tulee")
     context.callbackWaitForEmptyEventLoop = false;
     mongooseConnector.then(() => {
-        console.log("name: " + context.req.params.name)
+        const body = context.req.body
+        console.log(body.name)
         scoreSchema.findOne({
-            name: context.req.params.name
+            name: body.name
         }).then(score => {
             console.log(score)
             context.res = {
