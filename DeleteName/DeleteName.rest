@@ -1,0 +1,6 @@
+DELETE http://localhost:7071/api/names/name
+Content-Type: application/json
+
+{
+    "name": "Martta"
+}
